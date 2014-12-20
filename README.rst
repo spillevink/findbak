@@ -15,9 +15,9 @@ Config
     $ findbak
 
 -  Edit ``~/.findbakrc``
--  Setup cron to execute the script every hour
+-  Setup cron to execute the script every day
 
 ::
 
     $ crontab -e
-    0  *  *  *  *  findbak
+    0  0  *  *  *  findbak

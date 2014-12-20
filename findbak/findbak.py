@@ -16,7 +16,7 @@ def write_template_config():
         write_empty_values=True
     )
 
-    conf['directories'] = ['/mnt/hdd0/plex']
+    conf['directories'] = ['/mnt/hdd0/plex', '/mnt/hdd1/plex']
     conf['keep_days'] = 180
 
     conf.write()
